@@ -9,9 +9,16 @@ Provides full control over the overall playback/render speed
 - Keyframe-able Motion Blur Stretch slider
 - Compatible with the True Motion Blur add-on v.1.1.0+
 
+# ABOUT SOURCE CODE
+- The source code is provided under the GPL license. Supporting non-code files which are required for add-on to work in Blender are included only in paid versions, the links are below. You are free to edit the source code and remove this restrictions by yourself, but I don't provide help for this process, and can't support the end result
+
 # INSTALL
-- Buy and download ZIP file from the https://gumroad.com/products/JMGWu
-- don't unpack it!
+ZIP file with add-on ready-to-install can be purchased here:
+- Gumroad: https://gum.co/JMGWu
+- Blendermarket: waiting for review
+
+- Donwnload ZIP file
+- Don't unpack it!
 - Open Blender. From top menu go to > Edit > Preferences > Add-ons > Install
 - Find downloaded ZIP file and click "Install Add-on" button
 - After add-on is installed check enabling checkbox near its name
