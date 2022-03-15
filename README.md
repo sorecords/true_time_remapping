@@ -14,8 +14,8 @@ Provides full control over the overall playback/render speed
 
 # INSTALL
 ZIP file with add-on ready-to-install can be purchased here:
-- Gumroad: https://gum.co/JMGWu
-- Blendermarket: waiting for review
+- Gumroad: (currently disabled due to sanctions)
+- Blendermarket: (currently disabled due to sanctions)
 
 - Donwnload ZIP file
 - Don't unpack it!
