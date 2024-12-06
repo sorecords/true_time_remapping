@@ -266,11 +266,16 @@ class TTR_Play(TTR_PlaySupport, Operator):
             bpy.ops.ttr.setup(op='UPD')
             return {'FINISHED'}
         elif event.type == 'TIMER':
-            if self.counter == self.frame_len:
-                self.counter = 0
-            self.frame = self.frames[self.counter]
-            self.frame_set(context.scene, self.frame)
-            self.counter += 1
+            if self.sync:
+                self.frame = self.frames[self.counter]
+                self.frame_set(context.scene, self.frame)
+                self.counter = int(round((time.time() - self.begin_time) / self.step))
+                self.counter %= self.frame_len
+            else:
+                self.frame = self.frames[self.counter]
+                self.frame_set(context.scene, self.frame)
+                self.counter += 1
+                self.counter %= self.frame_len
         return {'PASS_THROUGH'}
     
     def invoke(self, context, event):
