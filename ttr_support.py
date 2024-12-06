@@ -151,6 +151,8 @@ class TTR_PlaySupport(TTR_Helpers):
         self.main_sc.use_nodes = False
         self.frame_handler_remove()
         self.frame_len = len(self.frames)
+        self.sync = bpy.context.scene.sync_mode != 'NONE'
+        self.begin_time = time.time()
         self.counter = 0
         self.step = 1/int(self.main_sc.render.fps)
         self.wm = context.window_manager
