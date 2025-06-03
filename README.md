@@ -1,5 +1,5 @@
 # TRUE TIME REMAPPING
-# add-on for Blender 2.8+
+# add-on for Blender 2.8 - 4.3
 Provides full control over the overall playback/render speed
 
 # FEATURES
