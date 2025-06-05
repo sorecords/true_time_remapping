@@ -10,9 +10,6 @@
 - Keyframe-able Motion Blur Stretch slider
 - Compatible with the True Motion Blur add-on v.1.1.0+
 
-# ABOUT SOURCE CODE
-- The source code is provided under the GPL license. Supporting non-code files which are required for add-on to work in Blender are included only in paid versions, the links are below. You are free to edit the source code and remove this restrictions by yourself, but I don't provide help for this process, and can't support the end result
-
 # INSTALL
 - Donload ZIP file with the source code from https://github.com/sorecords/true_time_remapping with Code > Download ZIP
 - Change the root folder name in the ZIP file to true_time_remapping
