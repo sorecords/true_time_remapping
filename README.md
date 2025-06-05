@@ -1,8 +1,7 @@
 # TRUE TIME REMAPPING
 # add-on for Blender 2.8 - 4.3. Now Free.
-Provides full control over the timelene playback/render speed
-This version works for Blender 2.8 - 4.3
-True Time Remapping for Blender 4.4+ is also free and available here - https://github.com/sorecords/true_time_remapping_bl4.4
+- Provides full control over the timelene playback/render speed
+- This version works for Blender 2.8 - 4.3. True Time Remapping for Blender 4.4+ is also free and available here - https://github.com/sorecords/true_time_remapping_bl4.4
 
 # FEATURES
 - Works in Eevee, Cycles and Workbench render engines
